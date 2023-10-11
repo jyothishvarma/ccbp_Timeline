@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.course-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 250px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  font-family: roboto;
+  font-size: 12px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.description {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.tags-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.tag-item {
+  height: 40px;
+  padding: 10px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+.tag-name {
+  font-family: roboto;
+  font-size: 10px;
+  color: #1e293b;
+  font-weight: 600;
+}

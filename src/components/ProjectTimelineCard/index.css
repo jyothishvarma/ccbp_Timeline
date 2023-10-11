@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  max-height: 500px;
+}
+
+.project-image {
+  height: 250px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-family: roboto;
+  font-size: 16px;
+  color: black;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.duration {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.description {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.visit-link {
+  font-family: roboto;
+  color: #0967d2;
+  text-align: left;
+}
